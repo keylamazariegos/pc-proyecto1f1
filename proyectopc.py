@@ -1,4 +1,4 @@
-#menu principal 
+#Bienvenidos al menu principal de gasolineras
 cantidaddetanquere = 40
 canttanquesup = 40
 canttanqued = 40
@@ -11,6 +11,7 @@ totald = 0
 totalv = 0
 totaln = 0
 while True : 
+    print("Bienvenidos a Gasolineras Jaguar")
     print ("¿Dónde desea navegar?")
     print ("1.Gestionar inventario")
     print ("2.Venta de combustible.")
@@ -228,6 +229,7 @@ while True :
                     agn= int(input("Ingrese la cantidad de personas a agregar: "))
                     totaln = (agn) + (jornocturna)
                     print ("La cantidad de trabajadores para esta jornada es de: ", totaln)
+                break
 
             #EXTRAER PERSONAL
             while seleccion == 2:
@@ -300,3 +302,4 @@ while True :
         #Salida
     if opcionselec == 5:
             print("Vuelva Pronto")
+            break
